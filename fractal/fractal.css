@@ -1,0 +1,84 @@
+/* FRACTAL JAVASCRIPT VERSION CSS */
+
+body {
+font: 100.00% sans-serif;
+background: #FFFFFF;
+margin: 0;
+padding-top: 2px;
+text-align: center;
+color: #000000;
+}
+
+body p {
+font: 20.00% sans-serif;
+}
+
+html, body {
+height: 100%;
+}
+
+.wrap {
+margin: 0 auto;
+width: 800px;
+}
+
+.toplink {
+font: 120% sans-serif;
+font-weight: normal;
+color: rgb(0, 0, 0);
+text-align: center;
+margin-top: 1px;
+margin-bottom: 0;
+margin-left: 0;
+padding: 0;
+text-indent: 0em;
+}
+
+.toplink a:hover{
+color: rgb(255, 0, 0);
+text-decoration: none;
+font-weight: normal;
+}
+
+.toplink a{
+color: rgb(0, 50, 255);
+text-decoration: none;
+font-weight: normal;
+}
+
+.editor {
+display: flex;
+width: 100vh;
+height: 100vh;
+border: solid 2px;
+color: rgb( 0, 0, 0);
+margin: 9px;
+padding: 2px;
+width: 810px;
+}
+
+.toolbar {
+width: 250px;
+background: #eeeeee;
+}
+
+.toolbar-item {
+padding: 15px;
+}
+
+.toolbar-input {
+width: 100%;
+height: 100%;
+}
+
+.toolbar-label {
+display: block;
+margin-bottom: 5px;
+font-size 14px;
+}
+
+#canvas {
+ max-width: 100%;
+ max-height: 100%;
+}
+

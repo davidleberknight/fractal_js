@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="shortcut icon" href="yin.png" /> 
+<head>
+<meta name="description" content="fractal, mandelbrot, julia, javascript">
+<meta name="robots" content="all">
+<meta NAME="Subject" CONTENT="Fractal JavaScript">
+<meta NAME="Copyright" CONTENT="David Leberknight 2022">
+<link rel="stylesheet" type="text/css" href="fractal/fractal.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Content-Type"/>
+<title>Fractal JavaScript</title>
+<script src="fractal/fractal.js" defer></script>
+<script src="fractal/calculator.js" defer></script>
+<script src="fractal/controlPanel.js" defer></script>
+</head>
+<body>
+<br>
+<p class="toplink">Explore the <a href="http://en.wikipedia.org/wiki/Mandelbrot_set">Mandlebrot</a> and <a href="http://en.wikipedia.org/wiki/Julia_set">Julia</a> sets with this Fractal App! 
+Developed by <a href="http://www.leberknight.com">David Leberknight</a> in JavaScript. The <a href="http://www.gui.net/fractal.html">Original Fractal Applet</a> in Java is online too, complete with source code, UML diagrams, and object-oriented design explained. 
+</p>
+<br>
+<p>
+<div class = "wrap">
+  <div class ="editor">
+     <div class="toolbar"/div>
+        <div class="toolbar-item">
+           <label class="toolbar-label" for="maxIterations">maxIterations</label>
+           <input class="toolbar-input" id="maxIterations"</input>
+        </div>
+        <div class="toolbar-item">
+           <input type="button" id="makeFractal" value="Make Fractal"</input>
+        </div>
+        <div class="toolbar-item">
+           <input type="button" id="next" value="Next"</input>
+        </div>
+        <div class="toolbar-item">
+           <input type="button" id="previous" value="Previous"</input>
+        </div>
+        <div class="toolbar-item">
+           <input type="button" id="delete" value="Delete"</input>
+        </div>
+         <div class="toolbar-item">
+           <input type="button" id="download" value="Download JPG"</input>
+        </div>
+        
+     </div>
+     
+     <div class="image-area">
+        <canvas id="canvas" height=500 width=500>
+     </div>
+   </div>
+</div>
+</p>
+<br>
+<br>
+</body>
+</html>
